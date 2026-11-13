@@ -1,0 +1,5 @@
+Extract structured support ticket information from the raw message below.
+Rules:
+- Return only facts present in the text.
+- If a field like error_code or affected_system is missing, return null.
+- Write the summary in English regardless of the input language.

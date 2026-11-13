@@ -1,0 +1,567 @@
+[
+  {
+    "id": "ticket_01",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "The customer is asking for more information regarding promotional solutions.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_02",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "User is inquiring for more details about the offered marketing services.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_03",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "medium",
+      "department": "Billing",
+      "summary": "The user is experiencing an error during a payment transaction.",
+      "technical_context": {
+        "affected_system": "payment transaction",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_04",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "de",
+      "ticket_type": "incident",
+      "priority": "medium",
+      "department": "Billing",
+      "summary": "The user is experiencing payment processing issues during billing and requests assistance to resolve it as quickly as possible.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_05",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "User is requesting assistance regarding the protection of medical information.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_06",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "The data analytics system is frequently experiencing crashes.",
+      "technical_context": {
+        "affected_system": "data analytics system",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_07",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "The customer is asking for details on digital strategies and expected outcomes for brand expansion.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_08",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Technical Support",
+      "summary": "User is requesting comprehensive instructions on how to incorporate the NAS SaaS Solution.",
+      "technical_context": {
+        "affected_system": "NAS SaaS Solution",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_09",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "The customer is seeking assistance with tools for brand expansion and marketing agencies.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_10",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "The user is experiencing data processing delays that are negatively impacting investment analysis.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_11",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "The user is experiencing intermittent access problems on the SaaS platform due to suspected Kubernetes orchestration issues.",
+      "technical_context": {
+        "affected_system": "SaaS Platform",
+        "error_code": null,
+        "steps_already_tried": [
+          "restarting the affected services",
+          "examining deployment logs"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_12",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "problem",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "The user is experiencing delays and confusion when managing multiple accounts simultaneously in the centralized account administration process.",
+      "technical_context": {
+        "affected_system": "centralized account administration",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_13",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Billing",
+      "summary": "The user is requesting clarification and detailed information regarding the current billing framework and fees applied to their account.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_14",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "Customer is requesting comprehensive details regarding the company's products and services.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_15",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "critical",
+      "department": "Technical Support",
+      "summary": "The user is reporting abnormal connectivity disruptions and suspected unauthorized access across smart gadgets, requiring urgent support.",
+      "technical_context": {
+        "affected_system": "smart gadgets",
+        "error_code": null,
+        "steps_already_tried": [
+          "Preliminary containment measures"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_16",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "de",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "Multiple essential hardware and software components are not working after the latest update.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": [
+          "Neustart gemäß Routine-Check"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_17",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "de",
+      "ticket_type": "request",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "The user is requesting security documentation for Notion on Windows 10 Pro regarding HIPAA and GDPR compliance in telehealth environments.",
+      "technical_context": {
+        "affected_system": "Notion",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_18",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "The user is experiencing sporadic access issues on the cloud-based SaaS platform related to Kubernetes orchestration.",
+      "technical_context": {
+        "affected_system": "Cloud-Based SaaS Platform",
+        "error_code": null,
+        "steps_already_tried": [
+          "restarting the affected services",
+          "examining deployment logs"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_19",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "critical",
+      "department": "Security Operations",
+      "summary": "Multiple devices are malfunctioning due to suspected unauthorized access, posing HIPAA-related risks.",
+      "technical_context": {
+        "affected_system": "NAS, cameras, USB drives, printers",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_20",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "Medical technical equipment is experiencing crashes and connectivity issues likely caused by recent security patches.",
+      "technical_context": {
+        "affected_system": "Medical Equipment (touchscreens, webcams, Ubuntu-based systems)",
+        "error_code": null,
+        "steps_already_tried": [
+          "Restarting devices",
+          "Manual updates",
+          "Reverting patches"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_21",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "de",
+      "ticket_type": "incident",
+      "priority": "critical",
+      "department": "Technical Support",
+      "summary": "A critical security incident involving unusual activity on projectors, displays, and cloud storage has been reported as a potential data breach.",
+      "technical_context": {
+        "affected_system": "Projectors, displays, and cloud storage solutions",
+        "error_code": null,
+        "steps_already_tried": [
+          "standardized remediation and containment measures"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_22",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "The centralized account management portal is offline, blocking access to account settings.",
+      "technical_context": {
+        "affected_system": "centralized account management portal",
+        "error_code": null,
+        "steps_already_tried": [
+          "attempted to log in multiple times using different browsers and devices"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_23",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "A potential customer is requesting detailed compatibility information regarding smart home products with platforms like Amazon Alexa, Google Assistant, and Apple.",
+      "technical_context": {
+        "affected_system": "Smart Home Integration Products",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_24",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Billing",
+      "summary": "The customer is requesting clarification on billing cycle dates, payment options, and potential extra charges due to observed inconsistencies.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_25",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "The user is requesting information regarding the compatibility of the products with marketing software, CRM systems, and analytics platforms for a marketing agency.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_26",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "The customer is requesting detailed product information, specifications, and learning resources to make a purchasing decision.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_27",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "System service disruptions caused by network hardware connectivity failures are reducing operational efficiency and delaying deadlines.",
+      "technical_context": {
+        "affected_system": "network hardware",
+        "error_code": null,
+        "steps_already_tried": [
+          "rebooting devices",
+          "performing initial system checks"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_28",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "Team members are experiencing connectivity problems with the Laser Printer when printing from MacBook Pros running macOS 15.",
+      "technical_context": {
+        "affected_system": "Laser Printer / MacBook Pro macOS 15",
+        "error_code": null,
+        "steps_already_tried": [
+          "restarted the printers and MacBook devices",
+          "reinstalled the printer drivers",
+          "verified configurations"
+        ]
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_29",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "de",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Technical Support",
+      "summary": "The user is requesting detailed information regarding the system architecture of the platform to ensure smooth integration and optimize service usage.",
+      "technical_context": {
+        "affected_system": "Platform",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_30",
+    "model": "gemini-3.5-flash-lite",
+    "prompt_version": "v1_baseline",
+    "output": {
+      "language": "de",
+      "ticket_type": "request",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "The user is requesting clarification on the impact, duration, affected services, data integrity, and preventive measures regarding a recent platform service outage.",
+      "technical_context": {
+        "affected_system": "Platform",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  }
+]

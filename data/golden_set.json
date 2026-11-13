@@ -1,0 +1,180 @@
+[
+  {
+    "id": "ticket_01",
+    "text": "Subject: Questions Regarding Promotional Solutions\nWould you be able to share more information about your promotional solutions?",
+    "expected": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "Customer is requesting more information about promotional solutions.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_02",
+    "text": "Subjec t: Inquiry Regarding Maketing Services\nCould you please provide more details about the marketing services offered?",
+    "expected": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "Customer is asking for more details about the marketing services offered.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_03",
+    "text": "Subject: Invoicing Issue\nCurrently facing an error during the payment transaction. Kindly help us resolve this problem at your earliest convenience.",
+    "expected": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Billing",
+      "summary": "Customer is experiencing an error during a payment transaction and needs prompt assistance.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_04",
+    "text": "Subject: Billing Issue\nProblem mit der Zahlungsabwicklung bei der Abrechnung. Bitte unterstützen Sie mich dabei, das Problem so zügig wie möglich zu lösen.",
+    "expected": {
+      "language": "de",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Billing",
+      "summary": "Customer is reporting a payment processing issue during billing and requests quick resolution.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_11",
+    "text": "Subject: Intermittent Access Problems on SaaS Platform\nCurrently facing sporadic connectivity difficulties with the cloud-native SaaS system. The suspected reason appears to be linked to orchestration resource distribution within Kubernetes-managed microservices. After restarting the affected services and examining deployment logs, the issue continues. Further investigation and escalation are required to resolve this matter swiftly.",
+    "expected": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "User is experiencing intermittent connectivity issues on the Kubernetes-managed SaaS platform despite restarting services.",
+      "technical_context": {
+        "affected_system": "SaaS Platform (Kubernetes-managed microservices)",
+        "error_code": null,
+        "steps_already_tried": [
+          "Restarted affected services",
+          "Examined deployment logs"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_12",
+    "text": "Subject: Problem Report\nCustomer Support,\\n\\nI am facing difficulties with the centralized account administration process. Although the features seem to be functioning normally, there are delays and confusion when handling several accounts simultaneously. Could you kindly look into this matter and offer advice on how to fix it? Your prompt help would be highly valued.\\n\\nThanks for your support.\\n\\nBest regards,\\n[Your Name]",
+    "expected": {
+      "language": "en",
+      "ticket_type": "problem",
+      "priority": "medium",
+      "department": "Technical Support",
+      "summary": "User is experiencing delays and confusion when managing multiple accounts simultaneously in the centralized account administration system.",
+      "technical_context": {
+        "affected_system": "Centralized account administration",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_13",
+    "text": "Subject: Clarification Needed\nPlease provide an explanation regarding the current billing framework. Could you share detailed information to better understand the fees applied to the account? Thank you.",
+    "expected": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Billing",
+      "summary": "Customer requests a detailed explanation of the billing framework and fees applied to their account.",
+      "technical_context": {
+        "affected_system": null,
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  },
+  {
+    "id": "ticket_21",
+    "text": "Subject: Wesentlicher Sicherheitsvorfall\nSehr geehrtes Support-Team,\\n\\nich möchte einen gravierenden Sicherheitsvorfall melden, der gegenwärtig mehrere Komponenten unserer Infrastruktur betrifft. Betroffene Geräte umfassen Projektoren, Bildschirme und Speicherlösungen auf Cloud-Plattformen. Der Grund für die Annahme ist, dass der Vorfall eine potenzielle Datenverletzung im Zusammenhang mit einer Cyberattacke darstellt, was ein erhebliches Risiko für sensible Informationen und den laufenden Geschäftsbetrieb unserer Organisation bedeutet.\\n\\nUnsere initialen Untersuchungen haben ungewöhnliche Aktivitäten und Abweichungen bei den Geräten ergeben. Trotz der Umsetzung unserer standardisierten Behebungs- und Eindämmungsmaßnahmen konnte die Bedrohung bislang nicht vollständig eliminiert.",
+    "expected": {
+      "language": "de",
+      "ticket_type": "incident",
+      "priority": "critical",
+      "department": "Security",
+      "summary": "Customer reports a critical security incident and potential cyberattack affecting projectors, displays, and cloud storage solutions that persists despite initial containment measures.",
+      "technical_context": {
+        "affected_system": "Projectors, displays, and cloud storage solutions",
+        "error_code": null,
+        "steps_already_tried": [
+          "Conducted initial investigation",
+          "Applied standard remediation and containment measures"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_22",
+    "text": "Subject: Account Disruption\nDear Customer Support Team,\\n\\nI am writing to report a significant problem with the centralized account management portal, which currently appears to be offline. This outage is blocking access to account settings, leading to substantial inconvenience. I have attempted to log in multiple times using different browsers and devices, but the issue persists.\\n\\nCould you please provide an update on the outage status and an estimated time for resolution? Also, are there any alternative ways to access and manage my account during this downtime?",
+    "expected": {
+      "language": "en",
+      "ticket_type": "incident",
+      "priority": "high",
+      "department": "Technical Support",
+      "summary": "User reports that the centralized account management portal is offline and requests an outage status update, ETA, and alternative access options.",
+      "technical_context": {
+        "affected_system": "Centralized account management portal",
+        "error_code": null,
+        "steps_already_tried": [
+          "Attempted to log in multiple times using different browsers and devices"
+        ]
+      },
+      "requires_human_escalation": true
+    }
+  },
+  {
+    "id": "ticket_23",
+    "text": "Subject: Query About Smart Home System Integration Features\nDear Customer Support Team,\\n\\nI hope this message reaches you well. I am reaching out to request detailed information about the capabilities of your smart home integration products listed on your website. As a potential customer aiming to develop a seamlessly interconnected home environment, it is essential to understand how your products interact with various smart home platforms.\\n\\nCould you kindly provide detailed compatibility information with popular smart home ecosystems such as Amazon Alexa, Google Assistant, and Apple?",
+    "expected": {
+      "language": "en",
+      "ticket_type": "request",
+      "priority": "low",
+      "department": "Sales",
+      "summary": "Prospective customer requests detailed compatibility information for smart home integration products with Amazon Alexa, Google Assistant, and Apple.",
+      "technical_context": {
+        "affected_system": "Smart home integration products",
+        "error_code": null,
+        "steps_already_tried": []
+      },
+      "requires_human_escalation": false
+    }
+  }
+]
